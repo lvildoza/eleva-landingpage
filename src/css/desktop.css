@@ -1,0 +1,173 @@
+@media (min-width:768px){
+    
+    .menu_TD-container{
+
+    }
+
+    .section_service-tittle{
+        display: none;
+    }
+    .servicios{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        justify-items: center;
+
+        height: 40vh;
+        padding: 0 10%;
+    }
+    .article-flex{
+        max-width: 250px;
+    }
+    .article-flex:nth-child(3){
+        border: none;
+    }
+
+    .recomendacion_semanal{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        background: rgb(255,255,255);
+        background: linear-gradient(270deg, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 41%, rgba(221,227,228,1) 100%);
+    }
+
+    .reco_semanal--img{
+        width: 70%;
+    }
+
+
+    .sobre_nosotros{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        padding: 10% 0;
+    }
+
+    .sobre_nosotros--container{
+        max-width: 800px;
+    }
+
+    iframe{
+        height: 250px;
+        
+    }
+    .iframe{
+        top: 115px;
+    }
+
+}
+
+
+@media (min-width:1039px){
+
+
+
+    .menu_header--container{
+        width: 70%;
+    }
+
+    .btn_logo--container{
+        width: 30%;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        height: 50px;
+    }
+
+    .btn_wssp--header{
+        padding: 7px 10px;
+        border: none;
+        background-color: #FF1493;
+        border-radius: 3px;
+        box-shadow: 0px 0px 5px 2px #FF1493;
+        color: var(--blanco);
+        font-weight: 700;
+        font-size: 15px;
+        cursor: pointer;
+        transition: ease .5s all;
+    }
+    .btn_wssp--header:hover{
+        background-color: rgba(255, 20, 147,.4);
+        box-shadow: 0px 0px 5px 2px rgba(255, 20, 147,.5);
+        color: #FF1493;
+    }
+    .wssp_menu--header{
+        vertical-align: middle;
+        width: 20px;
+    }
+
+    .logo_header--menu{
+        display: flex;
+        align-items: center;
+    }
+    .p_logo--header{
+        font-size: 15px;
+    }
+
+
+    .sobre_nosotros--container{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+
+        max-width: 1060px;
+        padding: 0;
+        height: 400px;
+    }
+    .sobre_nosotros--img{
+        width: 50%;
+        
+    }
+    .sobre_nosotros--txt{
+        max-width: 35%;
+        height: 100%;
+        
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        row-gap: 20px;
+        letter-spacing: .5px;
+    }
+
+
+
+    .iframe{
+        top: 80px;
+        right: 0px;
+    }
+    iframe{
+        width: 300px;
+        height: 150px;
+    }
+
+    .flex_redes-contacto{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+
+        width: 70%;
+
+    }
+
+    .redes_sociales--footer{
+        width: 30%;
+    } 
+    .contactanos{
+        width: 30%;
+    }
+}
+
+@media (max-width:1040px){
+    .btn_logo--container{
+        display: none;
+    }
+} 
+
+
+@media (max-width:1320px){
+    .btn_wssp--header{
+        display: none;
+    }
+}
