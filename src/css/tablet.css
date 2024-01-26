@@ -1,4 +1,4 @@
-@media (min-width:650px){
+@media (min-width:670px){
 
     /* --- HEADER --- */
     .menu-burger{
@@ -12,18 +12,22 @@
     }  
      
     .menu_TD-container{
+        width: 100vw;
+        position: fixed;
+        z-index: 50;
+        top: 0%;
+        background-color: white;
         width: 100%;
-        
 
         display: flex;
+        justify-content: space-around;
         align-items: center;
+        
     }
 
-        
-    .fondo{
-        height: 60vh;
-
-    }  
+    .p_logo-header{
+        font-size: 10px;
+    }
 
     .menu_header--container{
         width: 100%;
@@ -35,7 +39,7 @@
         justify-content: center;
         align-items: center;
 
-        max-width: 1000px;
+        width: 75%;
     }
 
     .nav_item--TD{
@@ -52,9 +56,19 @@
         color: var(--blanco);
     }
 
+    .logo_container-header{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
 
 
+    /* ----  MAIN ---- */
 
+    .fondo{
+        height: 80vh;
+        margin-top: 5%;
+    }  
 
 
 
@@ -113,6 +127,5 @@
         top:123px;
         right: 0;
     }
-
 
 }
